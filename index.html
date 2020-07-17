@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-<!--    alert-->
+<!--    alert > nav -->
     <div class="container-fluid navalert-container">
         <div class="container-fluid alert-container">
             <div class="row d-none d-sm-block">
@@ -20,9 +20,8 @@
                     </div>
                 </div>
             </div>
-<!--        /alert-->
         </div>
-        <!--    navbar-->
+<!--        nav-->
         <nav class="navbar navbar-dark navbar-expand-sm">
             <a href="/" class="navbar-brand">Whiskey Drop</a>
 
@@ -59,8 +58,9 @@
                 </p>
                 <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
             </div>
+<!--        /nav-->
         </nav>
-<!--    /navbar-->
+<!--    /alert > /nav-->
     </div>
 <!--        callout -->
     <div class="container-fluid callout-container">
@@ -82,123 +82,528 @@
 <!--        /callout-->
     </div>
 <!--        quotes -->
-    <div class="container quotes-container">
-        <section class="quotes">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h2 class="text-uppercase">Quotes:</h2>
+    <div class="container-wrapper">
+        <div class="container quotes-container content-container">
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Quotes:</h2>
+                        <hr class="block-divider block-divider--short">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <div class="media">
-                        <div class="d-none d-sm-block">
-                            <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" width="100" alt="Girl Image">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" width="100" alt="Girl Image">
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I've been introduced to more than 10 great international whiskeys I ever knew about.</p>
+                                    <p>- Jane Doe</p>
+                                </blockquote>
+                            </div>
                         </div>
-                        <div class="media-body">
-                            <blockquote class="blockquote">
-                                <p>I've been introduced to more than 10 great international whiskeys I ever knew about.</p>
-                                <p>- Jane Doe</p>
-                            </blockquote>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="media">
+                            <div class="d-none d-sm-block">
+                                <img src="images/guy-image.png" class="rounded-circle mr-3" height="100" width="100" alt="Girl Image">
+                            </div>
+                            <div class="media-body">
+                                <blockquote class="blockquote">
+                                    <p>I haven't been sober in months!</p>
+                                    <p>- John Doe</p>
+                                </blockquote>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="media">
-                        <div class="d-none d-sm-block">
-                            <img src="images/guy-image.png" class="rounded-circle mr-3" height="100" width="100" alt="Girl Image">
-                        </div>
-                        <div class="media-body">
-                            <blockquote class="blockquote">
-                                <p>I haven't been sober in months!</p>
-                                <p>- John Doe</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-<!--         /quotes -->
+            </section>
+        </div>
+<!--    /quotes    -->
     </div>
 <!--        features -->
-    <div class="container features-container">
-        <section class="features">
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h2 class="text-uppercase">Features:</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit aut, quidem nulla alias, consequuntur culpa quam fuga optio laudantium inventore laboriosam ipsum incidunt rem dolor sunt fugiat, totam vel dolorum.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+    <div class="container-wrapper container-wrapper--red">
+        <div class="container features-container content-container">
+            <section class="features">
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2 class="text-uppercase">Features:</h2>
+                        <hr class="block-divider block-divider--short block-divider--white">
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit aut, quidem nulla alias, consequuntur culpa quam fuga optio laudantium inventore laboriosam ipsum incidunt rem dolor sunt fugiat, totam vel dolorum.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">New!</span></h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit aut, quidem nulla alias, consequuntur culpa quam fuga optio laudantium inventore laboriosam ipsum incidunt rem dolor sunt fugiat, totam vel dolorum.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit aut, quidem nulla alias, consequuntur culpa quam fuga optio laudantium inventore laboriosam ipsum incidunt rem dolor sunt fugiat, totam vel dolorum.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-md-none d-lg-block col-lg-4">
+                        <div class="feature">
+                            <h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit aut, quidem nulla alias, consequuntur culpa quam fuga optio laudantium inventore laboriosam ipsum incidunt rem dolor sunt fugiat, totam vel dolorum.</p>
+                            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
-                    <div class="feature">
-                        <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Feature 3</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit aut, quidem nulla alias, consequuntur culpa quam fuga optio laudantium inventore laboriosam ipsum incidunt rem dolor sunt fugiat, totam vel dolorum.</p>
-                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-<!--         /features -->
+            </section>
+        </div>
+<!--        /features-->
     </div>
 <!--         favorites -->
-    <div class="container favorites-container">
-        <section>
-            <div class="row">
-                <div class="col-12 my-5">
-                    <h2>Monthly Favorites:</h2>
+    <div class="container-wrapper">
+        <div class="container favorites-container content-container">
+            <section>
+                <div class="row">
+                    <div class="col-12 page-header">
+                        <h2>Monthly Favorites:</h2>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <table class="table table-hover">
-                        <thead>
-                            <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Origin</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                            <th scope="row">1</th>
-                            <td>Jake and Jade</td>
-                            <td>Irish</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">2</th>
-                            <td>Smoke and Mirrors 1987</td>
-                            <td>Scotch</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">3</th>
-                            <td>Ashiya Shi</td>
-                            <td>Japanese</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">4</th>
-                            <td>Larry the Bird</td>
-                            <td>American</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+                <table class="col-12 table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Origin</th>
+                    </tr>
+                    </thead>
+                </table>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg--2">
+                            <div class="box box-1">
+                                <tbody class="row">
+                                    <tr >
+                                        <th scope="row">1.</th>
+                                        <td><span class="d-none d-lg-block">Lagavulin</span></td>
+                                        <td><span class="d-none d-lg-block">Scotch</span></td>
+                                        <td><span class="d-none d-md-block d-lg-none">Lagavulin</span></td>
+                                        <td><span class="d-none d-md-block d-lg-none">Scotch</span></td>
+                                        <td><span class="d-none d-sm-block d-md-none">Lagavulin</span></td>
+                                        <td><span class="d-none d-sm-block d-md-none">Scotch</span></td>
+                                        <td><span class="d-block d-sm-none">Lagavulin</span></td>
+                                        <td><span class="d-block d-sm-none">Scotch</span></td>
+                                    </tr>
+                                </tbody>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-8 col-lg--2">
+                            <div class="box box-2">
+                                <tbody class="row">
+                                    <tr>
+                                        <th scope="row">
+                                            <span class="d-none d-lg-block">2.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-lg-block">Paul John</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-lg-block">Indian</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-none d-md-block d-lg-none">2.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-md-block d-lg-none">Paul John</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-md-block d-lg-none">Indian</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-none d-sm-block d-md-none">2.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-sm-block d-md-none">Paul John</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-sm-block d-md-none">Indian</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-block d-sm-none">2.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-block d-sm-none">Paul John</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-block d-sm-none">Indian</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg--2">
+                            <div class="box box-3">
+                                <tbody class="row">
+                                    <tr>
+                                        <th scope="row">
+                                            <span class="d-none d-lg-block">3.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-lg-block">Nikka</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-lg-block">Japanese</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-none d-md-block d-lg-none">3.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-md-block d-lg-none">Nikka</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-md-block d-lg-none">Japanese</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-none d-sm-block d-md-none">3.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-sm-block d-md-none">Nikka</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-sm-block d-md-none">Japanese</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-block d-sm-none">3.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-block d-sm-none">Nikka</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-block d-sm-none">Japanese</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg--2">
+                            <div class="box box-4">
+                                <tbody class="row">
+                                    <tr>
+                                        <th scope="row">
+                                            <span class="d-none d-lg-block">4.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-lg-block">Starward</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-lg-block">Australian</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-none d-md-block d-lg-none">4.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-md-block d-lg-none">Starward</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-md-block d-lg-none">Australian</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-none d-sm-block d-md-none">4.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-sm-block d-md-none">Starward</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-sm-block d-md-none">Australian</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-block d-sm-none">4.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-block d-sm-none">Starward</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-block d-sm-none">Australian</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg--2">
+                            <div class="box box-5">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">
+                                            <span class="d-none d-lg-block">5.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-lg-block">Glenfidich</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-lg-block">Speyside</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-none d-md-block d-lg-none">5.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-md-block d-lg-none">Glenfidich</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-md-block d-lg-none">Speyside</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-none d-sm-block d-md-none">5.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-none d-sm-block d-md-none">Glenfidich</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-none d-sm-block d-md-none">Speyside</span>
+                                        </td>
+                                        <th scope="row">
+                                            <span class="d-block d-sm-none">5.</span>
+                                        </th>
+                                        <td>
+                                            <span class="d-block d-sm-none">Glenfidich</span>
+                                        </td>
+                                        <td>
+                                            <span class="d-block d-sm-none">Speyside</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
-<!--            /favorites-->
+
+                <div class="container-fluid">
+                    <div class="row">
+
+
+                        <table class="col-12 table table-hover">
+<!--                            <thead>-->
+<!--                                <tr>-->
+<!--                                <th scope="col">#</th>-->
+<!--                                <th scope="col">Name</th>-->
+<!--                                <th scope="col">Origin</th>-->
+<!--                                </tr>-->
+<!--                            </thead>-->
+<!--                        </table>-->
+
+                            <tbody class="row">
+
+                                <tr class="box box-1 col-12 col-sm-12 col-md-12 col-lg--2">
+
+                                    <th scope="row">
+                                        <span class="d-none d-lg-block">1.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-lg-block">Lagavulin</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-lg-block">Scotch</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-none d-md-block d-lg-none">1.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-md-block d-lg-none">Lagavulin</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-md-block d-lg-none">Scotch</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-none d-sm-block d-md-none">1.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-sm-block d-md-none">Lagavulin</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-sm-block d-md-none">Scotch</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-block d-sm-none">1.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-block d-sm-none">Lagavulin</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-block d-sm-none">Scotch</span>
+                                    </td>
+
+                                </tr>
+                                <tr class="box box-2 col-12 col-sm-12 col-md-8 col-lg--2">
+
+                                    <th scope="row">
+                                        <span class="d-none d-lg-block">2.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-lg-block">Paul John</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-lg-block">Indian</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-none d-md-block d-lg-none">2.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-md-block d-lg-none">Paul John</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-md-block d-lg-none">Indian</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-none d-sm-block d-md-none">2.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-sm-block d-md-none">Paul John</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-sm-block d-md-none">Indian</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-block d-sm-none">2.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-block d-sm-none">Paul John</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-block d-sm-none">Indian</span>
+                                    </td>
+
+                                </tr>
+                                <tr class="box box-3 col-12 col-sm-6 col-md-4 col-lg--2">
+
+                                    <th scope="row">
+                                        <span class="d-none d-lg-block">3.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-lg-block">Nikka</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-lg-block">Japanese</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-none d-md-block d-lg-none">3.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-md-block d-lg-none">Nikka</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-md-block d-lg-none">Japanese</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-none d-sm-block d-md-none">3.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-sm-block d-md-none">Nikka</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-sm-block d-md-none">Japanese</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-block d-sm-none">3.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-block d-sm-none">Nikka</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-block d-sm-none">Japanese</span>
+                                    </td>
+
+                                </tr>
+                                <tr class="box box-4 col-12 col-sm-6 col-md-6 col-lg--2">
+
+                                    <th scope="row">
+                                        <span class="d-none d-lg-block">4.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-lg-block">Starward</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-lg-block">Australian</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-none d-md-block d-lg-none">4.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-md-block d-lg-none">Starward</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-md-block d-lg-none">Australian</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-none d-sm-block d-md-none">4.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-sm-block d-md-none">Starward</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-sm-block d-md-none">Australian</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-block d-sm-none">4.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-block d-sm-none">Starward</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-block d-sm-none">Australian</span>
+                                    </td>
+
+                                </tr>
+                                <tr class="box box-5 col-12 col-sm-12 col-md-6 col-lg--2">
+
+                                    <th scope="row">
+                                        <span class="d-none d-lg-block">5.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-lg-block">Glenfidich</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-lg-block">Speyside</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-none d-md-block d-lg-none">5.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-md-block d-lg-none">Glenfidich</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-md-block d-lg-none">Speyside</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-none d-sm-block d-md-none">5.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-none d-sm-block d-md-none">Glenfidich</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-none d-sm-block d-md-none">Speyside</span>
+                                    </td>
+                                    <th scope="row">
+                                        <span class="d-block d-sm-none">5.</span>
+                                    </th>
+                                    <td>
+                                        <span class="d-block d-sm-none">Glenfidich</span>
+                                    </td>
+                                    <td>
+                                        <span class="d-block d-sm-none">Speyside</span>
+                                    </td>
+
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </div>
+<!--        /favorites-->
     </div>
 <!--    modal-->
     <div class="modal" tabindex="-1" role="dialog" id="signupModal">
