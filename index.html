@@ -6,6 +6,8 @@
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
@@ -45,31 +47,38 @@
             <a href="/login">Sign In / Sign Up</a>
         </div>
     </nav>
-    <article class="container mt-3">
-        <div class="row d-none d-sm-block">
-            <div class="col-12">
-                <div class="alert alert-warning">
-                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a>
-                </div>
-            </div>
-        </div>
-        <!-- callout -->
+<!--    alert-->
+<!--    <div class="container alert-container">-->
+<!--        <div class="row d-none d-sm-block">-->
+<!--            <div class="col-12">-->
+<!--                <div class="alert alert-warning">-->
+<!--                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--&lt;!&ndash;    /alert&ndash;&gt;-->
+<!--    </div>-->
+<!--        callout -->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay"></div>
         <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
-                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month. 
-                    <s class="d-none d-sm-inline">$19.99</s> 
+                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider--orange">
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
+                    <s class="d-none d-sm-inline">$19.99</s>
                     <span class="d-inline d-sm-none"><br></span>
                     <strong><mark>First one is free!</mark></strong></p>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signupModal">Sign Up!</button>
+                    <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#signupModal">Sign Up!</button>
                     <p class="muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
                 </section>
             </div>
         </div>
-        <!-- /callout -->
-        <hr>
-        <!-- quotes -->
+<!--        /callout-->
+    </div>
+<!--        quotes -->
+    <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -105,9 +114,10 @@
                 </div>
             </div>
         </section>
-        <!-- /quotes -->
-        <hr>
-        <!-- features -->
+<!--         /quotes -->
+    </div>
+<!--        features -->
+    <div class="container features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -138,9 +148,10 @@
                 </div>
             </div>
         </section>
-        <!-- /features -->
-        <hr>
-        <!-- favorites -->
+<!--         /features -->
+    </div>
+<!--         favorites -->
+    <div class="container favorites-container">
         <section>
             <div class="row">
                 <div class="col-12 my-5">
@@ -183,8 +194,9 @@
                 </div>
             </div>
         </section>
-    </article>
-
+<!--            /favorites-->
+    </div>
+<!--    modal-->
     <div class="modal" tabindex="-1" role="dialog" id="signupModal">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -214,6 +226,7 @@
                 </div>
             </div>
         </div>
+<!--    /modal    -->
     </div>
         
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
